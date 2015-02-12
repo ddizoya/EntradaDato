@@ -32,6 +32,7 @@ public class Metodo {
             if (entero == 1) {
                 String res = JOptionPane.showInputDialog(null, "Introduzca un numero");
                 int nume = Integer.parseInt(res);
+                JOptionPane.showMessageDialog(null, nume);
                 return nume;
             } else {
                 System.out.println("Error, introducir parametro valido");
