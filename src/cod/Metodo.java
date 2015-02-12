@@ -24,6 +24,7 @@ public class Metodo {
     public int introducir(int entero) {
         if (entero == 0) {
             Scanner nw = new Scanner(System.in);
+            System.out.println("Introduce");
             int num = nw.nextInt();
             System.out.println(num);
             return entero;
