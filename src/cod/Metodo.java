@@ -24,6 +24,7 @@ public class Metodo {
     public static int introducir(int entero) {
         if (entero == 0) {
             Scanner nw = new Scanner(System.in);
+            System.out.println("Introduce");
             int num = nw.nextInt();
             System.out.println(num);
             return entero;
@@ -31,6 +32,7 @@ public class Metodo {
             if (entero == 1) {
                 String res = JOptionPane.showInputDialog(null, "Introduzca un numero");
                 int nume = Integer.parseInt(res);
+                JOptionPane.showMessageDialog(null, nume);
                 return nume;
             } else {
                 System.out.println("Error, introducir parametro valido");
