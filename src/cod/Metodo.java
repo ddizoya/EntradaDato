@@ -21,7 +21,7 @@ public class Metodo {
      * @param entero Se le envía por parámetro un número entero.
      * @return Devuelve el entero impreso por consola.
      */
-    public int introducir(int entero) {
+    public static int introducir(int entero) {
         if (entero == 0) {
             Scanner nw = new Scanner(System.in);
             int num = nw.nextInt();
