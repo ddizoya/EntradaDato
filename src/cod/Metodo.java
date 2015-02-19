@@ -27,7 +27,7 @@ public class Metodo {
             System.out.println("Introduce");
             int num = nw.nextInt();
             System.out.println(num);
-            return entero;
+            return num;
         } else {
             if (entero == 1) {
                 String res = JOptionPane.showInputDialog(null, "Introduzca un numero");
